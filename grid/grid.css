@@ -1,0 +1,17 @@
+.dabba{
+    color:red
+}
+
+@media(min-width:300px) and (max-width:500px){
+    .dabba{
+        color:green
+    }
+    
+}
+
+@media(max-width:400px){
+    .dabba{
+        color:blueviolet
+    }
+    
+}

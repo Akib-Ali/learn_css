@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="container">
+      <div class="dabba">box1</div>
+      
+      
+    </div>
+    <script>
+     
+    // let outer=(a)=>{
+    //   let b = 15;
+    //   let inner=()=>{
+    //     let sum = a+b;
+    //     console.log(sum , "sum of two number")
+    //   }
+    //   return inner;
+
+    // }
+    // let innerfun = outer(10)
+    // innerfun();
+
+
+   console.log("promiss")
+
+   let pobj = new Promise((resolve, reject)=>{
+   
+    setTimeout(()=>{
+     let arr = [1,3,5,7];
+     resolve(arr);
+     reject("something went wrong")
+    },2000)
+
+   })
+
+   async function getData(){
+
+   let result = await pobj;
+   console.log(result)    
+   }
+
+   getData()
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ #container{
+    height: 320px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+ justify-content: space-around; 
+    flex-wrap:wrap ;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: flex-start;
+    gap: 5px;
+ 
+
+}
+
+div{
+    height: 100px;
+    width: 250px;
+    border: 1px solid blue;
+    text-align: center;
+ display: inline-block
+}
+
+
