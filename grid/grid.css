@@ -29,9 +29,11 @@
 }
 .box-two{
     background-color: palevioletred;
+    /* grid-column: 1/-1; */
+    grid-column: 1/4;
 }
 .box-three{
-    background-color: rgb(154, 112, 216);
+    background-color: rgb(154, 112, 216)
 }
 .box-four{
     background-color: salmon;
